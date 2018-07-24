@@ -3,6 +3,8 @@ let menu=$('#hamburger');
 
 menu.click(function(){
 	navigation.toggleClass('slide-right');
-	$('ul').toggleClass('slide-right');
 });
 
+$('li>a').click(function(){
+	navigation.addClass('slide-right');
+});
