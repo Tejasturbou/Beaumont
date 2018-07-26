@@ -9,6 +9,35 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style type="text/css">
+		#where{
+			width: 100%;
+			background-color: rgb(245, 245, 245);
+			height: 60px;
+			font-family: 'Roboto',serif;
+			border-bottom: 1px solid rgba(0,0,0,.1);
+			border-top: 1px solid rgba(0,0,0,.1);
+		}
+
+		#where span{
+			font-size: 13px;
+			vertical-align: middle;
+		}
+
+		#page_1_h1{
+			text-align: center;
+			font-weight: 700;
+			line-height: 1.1;
+			margin: 20px 0;
+		}
+
+		#page_1_p, li{
+			margin: 0 0 20px 0;
+			font-size: 16.2px;
+			font-family: 'Open sans', serif;
+			color: #3e403e;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -32,7 +61,7 @@
 					</div>
 					<ul>
 						<li><a href="who-we-are.html"><img src="images/placeholder-image.jpg">WHO WE ARE</a></li>
-						<li><a href="what-we-do.html"><img src="images/placeholder-image.jpg">WHAT WE DO</a></li>
+						<li><a href="#"><img src="images/placeholder-image.jpg">WHAT WE DO</a></li>
 						<li><a href="how-we-engage.html"><img src="images/placeholder-image.jpg">HOW WE ENGAGE</a></li>
 						<li><a href="#"><img src="images/placeholder-image.jpg">SERVICES</a></li>
 						<li><a href="#"><img src="images/placeholder-image.jpg">BLOG</a></li>
@@ -45,46 +74,25 @@
 				</div>
 			</div>
 		</div>
-	</header>
-	<main>
-		<div id="carousel">
-			<img src="images/placeholder-image.jpg" alt="navigation" id="slide">
-			<div id="animate-1">WHAT WE DO</div>
-			<div id="animate-2">Your goals are our goals</div>
-			<a href="what-we-do.html"><button>READ MORE</button></a>
+		<div id="where">
+			<p style="padding: 8px 0 8px 20px;"><a href="index.html">Home</a><span> >> </span>What We Do</p>
 		</div>
-		<section id="what_we_do">
-			<h5>STORY ABOUT US</h5>
-			<h3>WHAT WE DO</h3>
-			<h4>Innovative and Customer-centric Mobile & Web software solutions</h4>
-			<img src="images/placeholder-image.jpg" class="centered">
-		</section>
-		<section id="top_3_tech">
-			<h5>WHY CHOOSE US</h5>
-			<h3>TOP 3 TECHNOLOGIES</h3>
-			<h4>Enterprise software solutions for Business growth and performance</h4>
-			<p>We know what it takes to help your business prepare for the next generation of digital transformation. At GloTech, we provide a comprehensive suite of solutions and services that are technology superior and services that are technologically superior and commercially viable.</p>
-			<img src="images/placeholder-image.jpg" class="centered">
-			<div class="progress">
-				<p>AMAZON WEB SERVICES</p>
-				<div class="container"><div class="percentage animate-3" class="full">100%</div></div>
-			</div>
-			<div class="progress">
-				<p>WEB APPLICATION DEVELOPMENT</p>
-				<div class="container"><div class="percentage animate-4" class="less">98%</div></div>
-			</div>
-			<div class="progress">
-				<p>CROSS-PLATFORM MOBILE DEVELOPMENT</p>
-				<div class="container"><div class="percentage animate-5" class="lesser">90%</div></div>
-			</div>
-		</section>
+	</header>
+	<main style="padding: 20px 0; margin: 0 20px;">
+		<h1 id="page_1_h1">WHAT WE DO</h1>
+		<p id="page_1_p">At GloTech, we don't just provide staff augmentation and software consulting services, we help savvy entrepreneurs focus on their main business objectives and visions. By forging long-term relationships with our clients, we help them free up resources, limit costs, and access the right development techniques. Take a moment to learn how we partner with  companies to put their ideas into profitable executions  in terms of software solutions.</p>
+		<h2 id="page_1_h1" style="text-align: left; font-size: 22px">HOW KNACKFORGE WORKS WITH YOU</h2>
+		<ul>
+			<li>Your Voice is Our Voice.</li>
+			<li>Your Goals are Our Goals.</li>
+		</ul>
+		<p id="page_1_p">To align your business objectives with the work we provide, we assign a business relationship manager as your contact point. This business relationship manager(BRM) grinds with your company to understand business requirements and transform them into software solutions.<br>
+		On the contrary, the BRM will also work with our internal development lead. This software development lead will invigilate the dedicated team of developers delegated to your business, who will satisfy your needs. The relationship manager sets frequent milestones and provides consistent follow-ups regarding the work done to meet the given objectives in a stipulated time. While you are free to communicate with your business development manager anytime, you also have the authority to monitor each aspect of your project while it is in development.</p>
 
-		<section id="section-3">
-			<div id="services">
-				<h5>SOME OF OUR TOP</h5>
-				<h2>SERVICES</h2>
-				<p>At GloTech, we don't just provide you with cloud computing services, multi-platform mobile development, staff augmentation services, or dedicated software development teams. GloTech works to turn your company's vision into durable software solutions. To accomplish this mission, we offer one-stop-shop software development consulting services</p>
-				<div class="list_of_services">
+		<h2 id="page_1_h1" style="text-align: left; font-size: 22px">WHAT WE CAN DO FOR YOU</h2>
+		<p id="page_1_p">We engage an entire dedicated crew for development and management to accomplish the given work that always meets and exceeds your expectations. We use open source platforms that ensure you retain ownership of every aspect of your project. For example, our dedicated teams are proficient with the cloud computing platform that Amazon Web Services provide, and this platform allows us to scale your project on demand.<br>
+		We can provide your business with a full software development solution or simple staff augmentation when you need to scale. In addition, you can connect with  the many companies that call upon GloTech for skills in mobile app development, Wordpress, Drupal, PHP, Redmine, MySQL, GIMP Toolkit, Apache, YII framework, and much more.</p>
+		<div class="list_of_services">
 					<div class="glyph"><img src="images/placeholder-image.jpg"></div>
 					<div class="content">
 						<h3>CLOUD COMPUTING & INFRASTRUCTURE</h3>
@@ -126,80 +134,15 @@
 						<p style="margin-top: 8px;">As companies like yours thrive and grow in today's competitive business environment, they need to access key metrics to drive good decisions.</p>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section id="section-4">
-			<div id="engage">
-				<img src="images/placeholder-image.jpg" style="margin-top: 10px">
-				<h4>STEP 01.</h4>
-				<h3>REQUIREMENTS</h3>
-				<p>Our GloTech business relationship manager starts by learning your existing architecture and business requirements.</p>
-				<a href="#">Learn more</a>
-				<img src="images/placeholder-image.jpg">
-				<h4>STEP 02.</h4>
-				<h3>PLANNING</h3>
-				<p>After finalizing, the requirements then move on to the planning phase. We prepare a model plan, to start off with execution of design.</p>
-				<a href="#">Learn more</a>
-				<img src="images/placeholder-image.jpg">
-				<h4>STEP 03.</h4>
-				<h3>DESIGNING</h3>
-				<p>The project lead will break the plan into milestones. In turn, these milestones help the team leader to provide follow-ups to your BRM ensuring smooth treading towards the final objective.</p>
-				<a href="#">Learn more</a>
-				<img src="images/placeholder-image.jpg">
-				<h4>STEP 04.</h4>
-				<h3>DEVELOPMENT</h3>
-				<p>As improvement advances, the group will hold gatherings to check advance for the every day undertakings that will prompt achieving turning points. </p>
-				<a href="#">Learn more</a>
-				<img src="images/placeholder-image.jpg">
-				<h4>STEP 05.</h4>
-				<h3>POST DEVELOPMENT</h3>
-				<p>We’re not just done with the development phase, we present what we have developed so far, and note all your final customizations and implement it as soon as possible. This phase also includes bug fixing, if any.</p>
-				<a href="#">Learn more</a>
-				<img src="images/placeholder-image.jpg">
-				<h4>STEP 06.</h4>
-				<h3>DELIVERY & SUPPORT</h3>
-				<p>Your GloTech application development team isn't only accessible to convey your items on plan, we can likewise offer to give your organization continuous help.</p>
-				<a href="#">Learn more</a>
-				<p style="margin-top: 60px">At GloTech, we know our unique development process and top talent can offer you a competitive advantage over other outsourced development companies. When you're ready to turn your entrepreneurial ideas into software solutions, <a href="#">contact us</a> here at GloTech to learn how we can help.</p>
-			</div>
-		</section>
-		<section id="section-5">
-			<div id="blogs">
-			<h5>NEWS</h5>
-			<h2>BLOGS</h2>
-			<p>Discover all what's trending in Technology, Business, Enterprises and outside.</p>
-			<div id="all_blogs" style="margin-top: 70px">
-				<a href="" style="font-size: 14px"><strong>Cross-platform serverless app using NativeScript and AWS</strong></a>
-				<p style="margin: 5px 0 0 0"><strong>services</strong></p>
-				<p style="margin: 0; font-size: 10px"><strong>Selvam</strong> - Mar 22, 2018</p>
-			</div>
-			<div id="all_blogs">
-				<a href="" style="font-size: 14px"><strong>Asynchronous processing with AWS API Gateway and SNS</strong></a>
-				<p style="margin: 0; font-size: 10px"><strong>Selvam</strong> - Jan 23, 2018</p>
-			</div>
-			<div id="all_blogs">
-				<a href="" style="font-size: 14px"><strong>AWS S3 FTP Access using s3fs</strong></a>
-				<p style="margin: 0; font-size: 10px"><strong>Selvam</strong> - Jan 12, 2018</p>
-			</div>
-			</div>
-		</section>
-		<section id="section-6">
-			<img src="images/ama.png">
-			<img src="images/php.png">
-			<img src="images/dru.png">
-			<img src="images/cord.png">
-			<img src="images/solr.png">
-			<img src="images/my.png">
-			<img src="images/word.png">
-		</section>
-		<section id="section-7">
-			<div id="explore">
+	</main>
+	<section id="section-7">
+		<div id="explore">
 			<h2 style="font-size: 28px;">EXPLORE THE POSSIBILITIES</h2>
 			<p style="margin: 12px 10px;">Call Today: +1 903-266-1070 |+91 994-157-1690</p>
 			<button id="get_started">GET STARTED</button>
-			</div>
-		</section>
-	</main>
+		</div>
+	</section>
+
 	<footer>
 		<div>
 			<h4>CUSTOMER-CENTRIC</h4><hr>
