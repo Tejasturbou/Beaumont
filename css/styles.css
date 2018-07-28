@@ -5,6 +5,8 @@ html, body{
 
 a {
 	text-decoration: none;
+	color: black;
+	cursor: pointer;
 }
 
 a:active{
@@ -13,6 +15,10 @@ a:active{
 
 a:visited{
 	color: black;
+}
+
+button{
+	cursor: pointer;
 }
 
 p{
@@ -284,7 +290,7 @@ progress{
 	color: #fff;
 }
 
-.percentage{
+.percentage-1, .percentage-2, .percentage-3{
 	display: block;
 	text-align: right;
 	height: 100%;
@@ -511,10 +517,10 @@ footer a{
 	margin-right: 5px;
 }
 
-#return_to_start{
+.return_to_start{
 	position: fixed;
-	right: 20px;
-	bottom: 20px;
+	right: 10px;
+	bottom: 10px;
 	background-image: url("../images/backtotop.png");
 	width: 50px;
 	height: 50px;
@@ -522,6 +528,7 @@ footer a{
 	background-size: 100% 100%;
     z-index: 9999;
     opacity: 0.7;
+    display: none;
 }
 
 
@@ -707,6 +714,10 @@ footer a{
 		padding: 70px 0;
 	}
 
+	.return_to_start{
+		right: 20px;
+		bottom: 20px;
+	}
 }
 
 @media screen and (min-width: 920px){
@@ -822,5 +833,41 @@ footer a{
 		width: 130px;
 		height: 55px;
 		padding-right: 5px;
+	}
+
+	#logo img{
+		margin-left: 50px;
+	}
+
+	#where p{
+		margin-left: 150px;
+		font-size: 15px;
+	}
+
+	#engage{
+		text-align: left;
+		margin-top: 40px;
+	}
+	.grid-container-5{
+		margin: 10px 90px 10px 90px;
+		display: grid;
+		grid-template-columns: 75% 25%;
+		grid-gap: 40px;
+	}
+
+	.grid-container-5 p{
+		text-align: left !important;
+	}
+
+	.grid-container-6{
+		margin: 10px 100px 10px 100px;
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-gap: 40px;
+	}
+
+	.grid-container-7{
+		margin: 0;
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
