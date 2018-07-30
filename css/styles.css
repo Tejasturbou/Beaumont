@@ -449,10 +449,31 @@ h2{
 }
 #all_blogs{
 	text-align: left;
-	background-image: url("../images/placeholder-image.jpg");
-	background-repeat: no-repeat;
 	padding: 80px 20px 20px 20px;
 	margin: 30px 0;
+	background-size: 100% 100%;
+	box-shadow:
+	background-repeat: no-repeat;
+	color: #fff;
+
+	-webkit-box-shadow: inset 0px -167px 145px -61px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -167px 145px -61px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -167px 145px -61px rgba(0,0,0,0.75);
+}
+
+#all_blogs a{
+	color: #fff;
+}
+.all_blogs_1{
+	background-image: url("../images/cross platform mobile app using aws service_9.png");
+}
+
+.all_blogs_2{
+	background-image: url("../images/sns.png");
+}
+
+.all_blogs_3{
+	background-image: url("../images/s3_3.png");
 }
 
 #section-6{
@@ -592,13 +613,13 @@ footer a{
 	}
 
 	#engage img{
-		height: 380px;
+		height: 400px;
 		margin-top: 0;
 	}
 
 	#engage {
-		margin-right: 10%;
-		margin-left: 10%;
+		margin-right: 15%;
+		margin-left: 15%;
 	}
 
 	#engage div{
@@ -803,10 +824,10 @@ footer a{
 
 	.grid-container-0{
 		display: grid;
-		grid-template-columns: repeat(2, 0.5fr);
+		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 10px;
-		margin-right: 10%;
-		margin-left: 10%;
+		margin-right: 6%;
+		margin-left: 6%;
 		margin-bottom: 5%;
 	}
 
