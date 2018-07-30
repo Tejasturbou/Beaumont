@@ -613,7 +613,7 @@ footer a{
 	}
 
 	#engage img{
-		height: 400px;
+		height: 100%;
 		margin-top: 0;
 	}
 
@@ -681,6 +681,11 @@ footer a{
 
  	 .grid-container-2 div:nth-of-type(12) {
     	order: 12;
+ 	 }
+
+ 	 .svgs{
+ 	 	width: 100%;
+ 	 	height: 100%;
  	 }
 
  	 .grid-container-3{
